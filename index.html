@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/68234326ed.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main class="page flex flex-col items-center text-center p-[1rem]">
+        <section class="head mt-[3rem] w-full md:w-[700px] md:mt-[2rem]">
+            <div>
+                <div class="container-img flex justify-center mb-[2.5rem]">
+                    <img src="assets/img/logo.svg" alt="">
+                </div>
+                <h1 class="h1 mb-2 md:text-[3rem]">We are launching <b>soon!</b></h1>
+                <p>Subscribe and get notified</p>
+            </div>
+            <form action="#" id="myform" class="flex flex-col mt-[2rem]">
+                <div class="container-email">
+                    <input type="email" name="" id="input-email" class="py-[0.5rem] pl-[2rem] mb-[0.2rem] w-full rounded-full" placeholder="Your email address..." required>
+                    <p id="msg">Please provide a valid email address</p>
+                </div>
+                <input type="submit" value="Notify Me" class="p-[0.5rem] w-full rounded-full" id="btn">
+            </form>
+        </section>
+        <section class="image mt-[5rem] md:mt-[2rem]">
+            <div class="container-img md:w-[700px]">
+                <img src="assets/img/illustration-dashboard.png" alt="" srcset="">
+            </div>
+        </section>
+        <footer class="mt-[8rem] md:mt-[2rem]">
+            <div class="footer__icons">
+                <ul class="flex justify-center">
+                    <li class="mx-[1rem]"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li class="mx-[1rem]"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li class="mx-[1rem]"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer__copy mt-[1.5rem] md:mt-[1rem]">
+                <p class="text-[.8rem]"><i class="fa fa-copyright" aria-hidden="true"></i> Copyright Ping. All rights reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+:root{
+    --blue:hsl(223, 87%, 63%);
+    --paleBlue:hsl(223, 100%, 88%);
+    --lightRed:hsl(354, 100%, 66%);
+    --gray: hsl(0, 0%, 59%);
+    --veryDarkBlue:hsl(209, 33%, 12%);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+.page{
+    font-family: 'Libre Franklin',sans-serif;
+}
+
+.h1{
+    font-size: calc(1.2rem + 1vh);
+    color: var(--gray);
+}
+
+b{
+    color: #000;
+}
+
+
+
+
+#input-email{
+    border: 2px solid var(--paleBlue);
+    font-size: .9rem;
+}
+
+
+#btn{
+    background-color: var(--blue);
+    font-weight: 600;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+#btn:hover{
+    filter: brightness(1.2);
+}
+
+
+li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li a i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:.7rem;
+    color: var(--blue);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+li a i:hover{
+    background-color: var(--blue);
+    color: #fff;
+}
+
+.footer__copy p{
+    color: var(--gray);
+}
+
+#msg{
+    visibility:hidden;
+    font-size: .8rem;
+    font-style: italic;
+    color: var(--lightRed);
+}
+
+@media screen and (min-width:600px){
+    
+    #myform{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-email{
+        width: 65%;
+    }
+
+    #input-email{
+        width: 100%;
+        height: 50px;
+    }
+
+    #btn{
+        width: 30%;
+        height: 50px;
+    }
+    
+}
